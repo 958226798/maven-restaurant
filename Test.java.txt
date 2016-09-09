@@ -1,0 +1,6 @@
+01.public class Text {  
+02.    public static void main(String[] args) {  
+03.         String arch = System.getProperty("sun.arch.data.model");     
+04.          System.out.println(arch+"-bit");  
+05.    }  
+06.}  
